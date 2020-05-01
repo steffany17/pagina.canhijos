@@ -59,16 +59,13 @@ html {
 }
 
 
-#conversaciones{
-	height: 300px;
-	border: 1px solid #CCC;
-	overflow-y: scroll;
+.video{
+	top: 40%;
+	position: absolute;
+	right: 27%;
+	margin-top: -100px;
 }
-#contenedor{
-	max-width: 800px;
-	margin: auto;
-	
-}
+
 
 
 
@@ -149,6 +146,6 @@ nav >ul >li >a:hover >span {
 nav ul li a .Inicio {
 	background: #0e5061;}
 nav ul li a .Categorias{
-	background: #5da5a2}
+	background: #f25724}
 nav ul li a .Contacto{
 	background: #f25724;}
