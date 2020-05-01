@@ -1,0 +1,154 @@
+body#home {
+	background-image: url(fondo2.jpg); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+	background-position-y: -20%;
+    height: 500px;
+    max-width: 100%;
+
+    
+
+
+}
+html {
+	font-size: 3px;
+}
+
+
+
+.social-barra{
+	position: fixed;
+	right: 0;
+	top: 20%;
+	font-size:1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+
+}
+.icons{
+	color: white;
+	text-decoration: none;
+	padding: 7rem;
+	display: flex;
+	transition: all .5s;
+	font-size: 15px;
+
+}
+.iconos-facebook{
+	background: #3b5998;
+	border-radius: 1rem 0 0 0;
+}
+.iconos-whatsapp{
+	background:#25d366;
+}
+.iconos-messenger{
+	background:  #f4f4f4;
+}
+.iconos-youtube{
+	background: #e83028;
+	border-radius: 0 0 0 1rem;
+}
+.icons:hover{
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rgba(0, 0, 0, 0.42);
+
+}
+
+
+#conversaciones{
+	height: 300px;
+	border: 1px solid #CCC;
+	overflow-y: scroll;
+}
+#contenedor{
+	max-width: 800px;
+	margin: auto;
+	
+}
+
+
+
+*{	margin:0;
+	padding:0;}
+header{
+	width:100%;}
+nav{
+	margin:20px auto;
+	width: 100%;
+	max-width: 1000px;}
+nav ul{
+	list-style: none;}
+nav > ul{
+	display:table;
+	overflow: hidden;
+	width: 100%;
+	background:#000;
+	position: relative;}
+nav> ul li{
+	display: table-cell;}
+/*submenu*/
+nav > ul > li:hover >ul{
+	display: block;
+	height: 80%;}
+nav >ul >li >ul{
+	display: block;
+	position: absolute;
+	background: #000;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	height: 0%;
+	/*css3 generator- se utiliza para efectos en este caso de trancision*/
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;}
+nav > ul li a{ 
+    font-size: 18px; 
+	color:#fff;
+	display:block;
+	line-height: 10px;
+	padding:25px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	/*css3 generator- se utiliza para efectos en este caso de trancision*/
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+
+}nav > ul > li >ul >li a:hover {
+	background: #5da5a2;}
+nav>ul>li>a span {
+	background: #174459;
+	display: block;
+	height:100%;
+	width:100%;
+	left:0;
+	position: absolute;
+	top:-55px;
+	/*css3 generator- se utiliza para efectos en este caso de trancision*/
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;}
+nav>ul>li>a span {
+	display: block;
+	line-height: 60px;}
+nav >ul >li >a:hover >span {
+	top:0;}
+/*colores*/
+nav ul li a .Inicio {
+	background: #0e5061;}
+nav ul li a .Categorias{
+	background: #5da5a2}
+nav ul li a .Contacto{
+	background: #f25724;}
